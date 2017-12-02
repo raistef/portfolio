@@ -1,0 +1,109 @@
+body {
+  background-color:bisque;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0;
+  border-left:black 150px solid;
+  border-bottom:black 110px solid;
+  border-top:black 30px solid;
+  border-right:black 120px solid;
+  padding:0;
+}
+h1, h2 {
+  
+  font-family: 'Dr Sugiyama', cursive;
+    font-style:italic;
+  
+}
+
+h1 {
+  font-size:700%;
+  margin-left:20%;
+  text-shadow: 2px 2px darkred;
+}
+
+h2 {
+  margin-top:5%;
+  font-size:550%;
+  margin-right:20%;
+}
+
+
+
+
+#contact {
+  float:left;
+  width:100px;
+  height:70px;
+  margin-top:0px;
+  background-color:black;
+  margin-left:-20%;
+}
+
+#portfolio {
+  margin-top:10%;
+  margin-left:-15%;
+  float:left;
+  cursor:pointer;
+}
+
+#photo {
+  float:right;
+  border-radius:50%;
+  margin-top:20px;
+  margin-right:120px;
+  border:3px solid black;
+}
+
+#fed {
+  font-size:150%;
+  margin-left:56%;
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+hr {
+  margin-left:20%;
+  margin-right:20%;
+  border-top: 1px solid rgba(26, 0, 0, 0.2);
+}
+
+.top {
+  margin-top:5%;
+}
+
+.bottom {
+  margin-bottom:10%;
+}
+
+h3 {
+  margin-top:15%;
+  font-family: 'Nova Mono', monospace;
+  font-size:300%;
+}
+
+.panel-heading {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size:200%;
+  letter-spacing:-5px;
+}
+
+#yahoo {
+  color:blue;
+}
+
+#contact_section {
+  margin-left:7%;
+}
+
+#email {
+  margin-left:12%;
+  font-family: 'Nova Mono', monospace;
+}
+
+#contact_section {
+  margin-top:5%;
+}
+
+
+
