@@ -6,7 +6,7 @@ body {
   margin: 0;
   border-left:black 150px solid;
   border-bottom:black 110px solid;
-  border-top:black 30px solid;
+  border-top:black 100px solid;
   border-right:black 120px solid;
   padding:0;
 }
@@ -21,10 +21,11 @@ h1 {
   font-size:700%;
   margin-left:20%;
   text-shadow: 2px 2px darkred;
+  
 }
 
 h2 {
-  margin-top:5%;
+  margin-top:16%;
   font-size:550%;
   margin-right:20%;
 }
@@ -51,8 +52,7 @@ h2 {
 #photo {
   float:right;
   border-radius:50%;
-  margin-top:20px;
-  margin-right:120px;
+    margin-right:120px;
   border:3px solid black;
 }
 
@@ -105,5 +105,9 @@ h3 {
   margin-top:5%;
 }
 
+.container {
+	width:110%;
+	margin-left:9%;
+}
 
 
