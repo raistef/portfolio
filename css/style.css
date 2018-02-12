@@ -449,10 +449,12 @@ table {
 	background: url('../img/portrait.jpg') right bottom no-repeat;
 	background-color:#af9199;
 	background-size: contain;
-	padding:0px 0 100px 0;
-	height:auto;
+	position:relative;
+	height:100vh;
 	width:100%
 }
+
+
 .hero h1 {
 	font-size: 7em;
 	letter-spacing: -8px;
@@ -531,14 +533,21 @@ table {
 	}
 }
 .scrollto {
-	padding: 70px 0px 0px 0px;
 	display:block;
-	color:#FFF;
 	text-decoration:none;
 	width:200px;
-	margin:0 auto;
+	margin:auto;
 	border-bottom: none;
+		
 }
+
+#bottom-fixed {
+	position:absolute;
+	bottom:10px;
+	left:40%;
+	right:40%;
+}
+
 .scrollto--arrow {
 	padding:10px;
 
@@ -1159,7 +1168,7 @@ ul.slides li {
 	}
 }
 /* 1200px (Small Desktop,Netbook) */
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1024px) {
 	.wp3 {
 		background-position: 50px 0;
 	}
@@ -1168,6 +1177,7 @@ ul.slides li {
 
 /* 1200px (Small Desktop,Netbook) */
 @media screen and (max-width:1580px) {
+	
 	.wp3 {
 		background-position: 50px 0;
 	}
