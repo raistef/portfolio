@@ -450,7 +450,7 @@ table {
 	background-color:#af9199;
 	background-size: contain;
 	padding:0px 0 100px 0;
-	height:auto;
+	height:100vh;
 	width:100%
 }
 .hero h1 {
